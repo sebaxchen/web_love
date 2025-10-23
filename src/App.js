@@ -314,11 +314,6 @@ function App() {
             </div>
 
             <div className="letter-signature">
-              <div className="signature-decoration">
-                <span className="sig-heart">💕</span>
-                <span className="sig-heart">💖</span>
-                <span className="sig-heart">💕</span>
-              </div>
               <p>Con todo mi amor,</p>
               <p className="signature-name">Tu Gordito</p>
             </div>
@@ -363,7 +358,9 @@ function App() {
               <div className="counter-number-bottom">{timeLeft.minutes}</div>
               <div className="counter-label-bottom">Minutos</div>
             </div>
-            <div className="counter-item-bottom">
+          </div>
+          <div className="counter-seconds-mobile">
+            <div className="counter-item-bottom seconds-item">
               <div className="counter-number-bottom">{timeLeft.seconds}</div>
               <div className="counter-label-bottom">Segundos</div>
             </div>
